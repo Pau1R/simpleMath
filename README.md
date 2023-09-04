@@ -1,10 +1,8 @@
 # simpleMath
-This plugin gives Sublime Text the ability to perform simple math operations with numbers.
-
-Operations can also apply to selection.
+This plugin gives Sublime Text the ability to perform simple math operations with numbers for all or only selected text.
 
 Currently available commands:
-- **summarize**: get sum of numbers
+- **summarize**: get sum of all numbers found in text.
 
 Commands planned for development:
 - **multiply**: multiply numbers

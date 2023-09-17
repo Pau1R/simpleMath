@@ -1,3 +1,5 @@
 [
-    { "caption": "simpleMath: summarize", "command": "summ" }
+    { "caption": "simpleMath: summarize", "command": "summ" },
+    { "caption": "simpleMath: multiply", "command": "multiply" },
+    { "caption": "simpleMath: calculate expression", "command": "calculate" }
 ]

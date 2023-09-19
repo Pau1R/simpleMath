@@ -14,7 +14,7 @@ class SimpleMathCommand(sublime_plugin.TextCommand):
         if isinstance(value, float):
             if value.is_integer():
                 value = int(value)
-        sublime.status_message('   ' + title + ': ' + str(value) + "   copied to clipboard")
+        sublime.status_message('   ' + title + ': ' + str(value) + "   copied value to clipboard")
 
     def getText(self):
         # get highlighted text

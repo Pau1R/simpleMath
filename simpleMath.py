@@ -9,10 +9,10 @@ import math
 class SimpleMathCommand(sublime_plugin.TextCommand):
     def display(self, title, value):
         # copy to clipboard and display operation result
-        clipboard.copy(value)
         if isinstance(value, float):
             if value.is_integer():
                 value = int(value)
+        clipboard.copy(value)
         sublime.status_message('   ' + title + ': ' + str(value) + "   copied value to clipboard")
 
     def getText(self):

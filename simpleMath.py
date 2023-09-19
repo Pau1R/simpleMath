@@ -10,7 +10,6 @@ class SimpleMathCommand(sublime_plugin.TextCommand):
     def display(self, title, value):
         # copy to clipboard and display operation result
         clipboard.copy(value)
-        # if value.is_float():
         if isinstance(value, float):
             if value.is_integer():
                 value = int(value)

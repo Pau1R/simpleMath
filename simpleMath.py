@@ -2,7 +2,7 @@ import sublime
 import sublime_plugin
 import re
 import time
-import simpleMath.pyperclip as clipboard
+from . import pyperclip as clipboard
 import math
 
 
